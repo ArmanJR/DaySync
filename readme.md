@@ -66,6 +66,9 @@ To do so, [share your calendar](https://support.google.com/calendar/answer/37082
 ## Improvements
 - [ ] Replace `nohup` with a proper script execution
 
+## Note
+The waveshare files are copied from https://github.com/waveshareteam/e-Paper
+
 ## Contribution
 Pull requests are welcome
 
