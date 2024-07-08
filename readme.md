@@ -63,6 +63,9 @@ kill 12345
 By default, your main calendar is called `primary`. You may want to import calendars from other accounts or sources.
 To do so, [share your calendar](https://support.google.com/calendar/answer/37082?hl=en) and replace `calendarID` with the one you added.
 
+## Bugs & Issues
+If you have any problems running the code, please [open an issue](https://github.com/ArmanJR/DaySync/issues).
+
 ## Improvements
 - [ ] Replace `nohup` with a proper script execution
 
