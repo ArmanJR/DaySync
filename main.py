@@ -53,7 +53,7 @@ def fetch_calendar_events():
 
     events_result = service.events().list(calendarId=calendarID, timeMin=ten_minutes_ago,
                                           timeMax=today_evening,
-                                          maxResults=10, singleEvents=True,
+                                          maxResults=4, singleEvents=True,
                                           orderBy='startTime').execute()
     events = events_result.get('items', [])
 
