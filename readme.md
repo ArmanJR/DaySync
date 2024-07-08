@@ -42,7 +42,8 @@ pip install -r requirements.txt
 python main.py
 ```
 A browser tab will open. Grant access to the app and close the browser after you did. A `token.json` file should exist now in the project directory.
-9. Run the script via nohup and monitor the output
+
+10. Terminate the script (control+z) and run again via `nohup`
 ```
 nohup python main.py > output.log 2>&1 &
 ```
